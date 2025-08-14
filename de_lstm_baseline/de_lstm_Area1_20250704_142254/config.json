@@ -1,0 +1,22 @@
+{
+  "area": "Area1",
+  "data_dir": "data/processed",
+  "sequence_length": 96,
+  "batch_size": 32,
+  "scaler_type": "standard",
+  "input_dim": 4,
+  "hidden_dim": 128,
+  "num_layers": 2,
+  "dropout": 0.1,
+  "model_type": "de_lstm",
+  "num_epochs": 100,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "early_stopping_patience": 15,
+  "scheduler_patience": 5,
+  "scheduler_factor": 0.5,
+  "device": "auto",
+  "save_dir": "checkpoints/de_lstm_baseline",
+  "print_every": 5,
+  "seed": 42
+}
